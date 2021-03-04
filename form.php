@@ -1,4 +1,19 @@
 <?php
+#
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+# CleanForm
+#
+# @author           Taras Palasyk (https://github.com/b33rm3up)
+# @copyright        Copyright (c) 2021, Taras Palasyuk. All rights reserved.
+# @licence          BSD 3-Clause License
+# @version          Version 0.1
+# @revision         null
+# @category         null
+# @filename         form.php
+#
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
 session_start();
 $FormToken = bin2hex(random_bytes(64));
 
